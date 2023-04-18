@@ -1,0 +1,79 @@
+<!--Ejercicio 1-->
+<?xml version="1.0"?>
+<nombre>Richal</nombre>
+
+<?xml version="1.0"?>
+<persona>
+  <nombre>Richal</nombre>
+  <email>richal@ejemplo.com</email>
+</persona>
+
+<?xml version="1.0" encoding="UTF-7"?>
+<album>
+  <autor>SABINA Y CIA Nos sobran los motivos</autor>
+  <titulo>Joaquín Sabina</titulo>
+  <formato>MP3</formato>
+  <localizacion>Varios CD5</localizacion>
+</album>
+
+<!--Ejercicio 2-->
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <desayuno nombre="Gofres Belgas">
+    <precio moneda="euros">5.95</precio>
+    <descripcion>Dos de nuestros famosos Gofres belgas con abundante sirope</descripcion>
+    <calorias>650</calorias>
+  </desayuno>
+  <desayuno nombre="Gofres Belgas con fresas">
+    <precio moneda="euros">7.95</precio>
+    <descripcion>Ligeros gofres belgas cubiertos de fresas y nata montada</descripcion>
+    <calorias>900</calorias>
+  </desayuno>
+  <desayuno nombre="Gofres Belgas con frutas del bosque">
+    <precio moneda="euros">8.95</precio>
+    <descripcion>Ligeros gofres belgas cubiertos con frutas del bosque y nata montada</descripcion>
+    <calorias>900</calorias>
+  </desayuno>
+  <desayuno nombre="Tostada Francesa">
+    <precio moneda="euros">4.50</precio>
+    <descripcion>Dos gruesas rebanadas de nuestro pan francés casero</descripcion>
+    <calorias>600</calorias>
+  </desayuno>
+  <desayuno nombre="Desayuno de la casa">
+    <precio moneda="euros">6.95</precio>
+    <descripcion>Dos huevos, bacon o salchicha, tostada y patatas fritas</descripcion>
+    <calorias>950</calorias>
+  </desayuno>
+</menu>
+
+<!--Ejercicio 3-->
+<?xml version="1.0" encoding="UTF-8"?>
+<Ejercicios>
+  <apartado nombre="a">
+    <descripcion>El elemento con la etiqueta Ejercicios es el elemento raíz que engloba al resto de elementos.</descripcion>
+  </apartado>
+  <apartado nombre="b">
+    <descripcion>La etiqueta inicial y final de cada elemento se describe con el mismo nombre para saber donde empieza y acaba dicho elemento.</descripcion>
+  </apartado>
+  <apartado nombre="c">
+    <descripcion>La etiqueta inicial y final de cada elemento descripción se encuentra englobada por su correspondiente elemento apartado.</descripcion>
+  </apartado>
+  <apartado nombre="d">
+    <descripcion>Cada elemento apartado empieza y termina con la misma etiqueta para marcar donde empieza y termina cada uno.</descripcion>
+  </apartado>
+  <apartado nombre="e">
+    <de5cr1pc10n-ej_em.plo>Se pueden utilizar letras, números, guiones, guiones bajos, comas y puntos en las etiquetas de los elementos.</de5cr1pc10n-ej_em.plo>
+  </apartado>
+  <apartado nombre="f">
+    <descripcion atributo1="es un ejemplo" atributo2="es otro ejemplo">Un elemento puede tener varios atributos, como este elemento de descripcion, un atributo, como el elemento apartado que lo engloba, o ningún atributo como el elemento principal de este ejemplo.</descripcion>
+  </apartado>
+  <apartado nombre="g">
+    <descripcion>Los caracteres &amp; y &lt; deben escribirse como &amp;amp; y &amp;lt; respectivamente cuando se utilizan en el texto ya que esos caracteres se usan como marcas.</descripcion>
+  </apartado>
+  <apartado nombre="h">
+    <descripcion>Los caracteres &gt;, &quot; y &apos; tambien se pueden sustituir por &amp;gt;, &amp;quot; y &amp;apos; respectivamente.</descripcion>
+  </apartado>
+  <apartado nombre="i">
+    <!--Esto es un comentario-->
+  </apartado>
+</Ejercicios>
