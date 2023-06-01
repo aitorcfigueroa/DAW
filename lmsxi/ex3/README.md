@@ -20,9 +20,19 @@ return <premiado>{data($x/premiado)} ha ganado el premio de {data($x/@categoria)
   </tr>
 </table>
 ````
-
 ## (2 punto) Incluir un nuevo premiado en un nuevo fichero
+````
+insert node <premio categoria="nuevo">
+            <año>2023</año>
+            <premiado>Aitor Couñago</premiado>
+            <motivo>¿Por qué no?</motivo>
+        </premio>
+into doc("premios.xml")/premios_nobel/premios
+````
 ## (2 puntos) Realizar un fichero nuevo incluyendo motivos en los que no tienen
+````
+
+````
 # Realiza una aplicación para usar el fichero employees.json (repositorio)
 ## (2 puntos) Que lea el fichero y guarde los datos en un array list
 ## (2 puntos) Despues de modificar algun datos en el array list que lo vuelva a guardar
