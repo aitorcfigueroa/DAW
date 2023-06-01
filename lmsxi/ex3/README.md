@@ -31,7 +31,9 @@ into doc("premios.xml")/premios_nobel/premios
 ````
 ## (2 puntos) Realizar un fichero nuevo incluyendo motivos en los que no tienen
 ````
-
+insert node <motivo>¿Por qué no?</motivo>
+into doc("premios.xml")/premios_nobel/premios/premio
+where $x/@categoria='literatura'
 ````
 # Realiza una aplicación para usar el fichero employees.json (repositorio)
 ## (2 puntos) Que lea el fichero y guarde los datos en un array list
