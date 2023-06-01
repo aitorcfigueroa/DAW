@@ -35,6 +35,18 @@ insert node <motivo>¿Por qué no?</motivo>
 into doc("premios.xml")/premios_nobel/premios/premio
 where $x/@categoria='literatura'
 ````
+
 # Realiza una aplicación para usar el fichero employees.json (repositorio)
 ## (2 puntos) Que lea el fichero y guarde los datos en un array list
+````
+\\Se importa el JSON
+const data = require('./employees.json');
+
+\\Se convierte en una string solo los datos
+const result = JSON.stringify(data.employees);
+
+\\Se convierte en un array
+const array = JSON.parse(result);
+````
+
 ## (2 puntos) Despues de modificar algun datos en el array list que lo vuelva a guardar
